@@ -23,6 +23,7 @@ document.getElementById('Usuario').value ="";
 
   console.log(Date());
 }
+
 function Comentario(param1){
   if (document.getElementById('comentarios'+param1).style.display=="none") {
 document.getElementById('comentarios'+param1).style.display = "inline";
