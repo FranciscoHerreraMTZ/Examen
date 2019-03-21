@@ -1,0 +1,29 @@
+ b {
+   font-family: Verdana;
+  text-align: center;
+  padding-left: 400px;
+}
+#prueba {
+padding: 10px 10px;
+margin-left: 500px;
+}
+div b{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+div b #tiempo{
+  position: absolute;
+  margin-left: 100px;
+}
+#Usuario{
+    background-color: green;
+}
+#Imagen{
+  background-color: red;
+}
+#marco{
+
+  border-color: red;
+
+}

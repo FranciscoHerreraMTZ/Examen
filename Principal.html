@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <title>Examen de fotos, comentarios y cosas varias.</title>
   </head>
+  <link rel="stylesheet" href="Estilo.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <body>
+<b > Usuario</b><input type="text" id="Usuario" name="Usuario" value="" >
+  <br><b>Descripcion</b> <input type="text" id="Descripcion" name="Descripcion" value="">
+  <br><b>Imagen</b><input type="url" id="Imagen" name="Imagen" value=""style="background-color:red">
+  <br><button type="button" name="Guardar" id="prueba" onclick="Guardar()">Guardar</button>
 
-
-<b> Usuario<input type="text" id="Usuario" name="Usuario" value="">
-  <br>Descripcion <input type="text" id="Descripcion" name="Descripcion" value="">
-  <br>Imagen<input type="url" id="Imagen" name="Imagen" value="">
-  <br><button type="button" name="Guardar" id="p" onclick="Guardar()">Guardar</button>
+<hr id="marco">
 
 <div id="Publicaciones">
 

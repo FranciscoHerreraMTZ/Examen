@@ -6,7 +6,7 @@ function Guardar(){
   var usur = document.getElementById('Usuario');
   var des = document.getElementById('Descripcion');
   var tiempo = Date();
-  var text = "<b>Usuario:"+usur.value+"<br>"+des.value+"<br><img src='"+ima.value+"' ><br>Fecha:"+tiempo+" <br><button type='button' name='Comentario' id='"+i+"' onclick='Comentario("+i+")'>Comentar</button> <div id='comentarios"+i+"'><br>Comentario<input type='text' id='comen"+i+"' > <button type='button' name='Comentario' onclick='Guardarcomen("+i+")'>Publicar</button><br></div><br><div id='Publicaciones"+p+"'></div>";
+  var text = "<b>Usuario:"+usur.value+"</b><br><b>Descripcion: "+des.value+"</b><br><b id='tiempo'>Fecha:"+tiempo+"</b><img src='"+ima.value+"' ><br><button type='button' name='Comentario' id='"+i+"' onclick='Comentario("+i+")'>Comentar</button> <div id='comentarios"+i+"'><br><h1>Comentario</h1><br><input type='text' id='comen"+i+"' > <button type='button' name='Comentario' onclick='Guardarcomen("+i+")'>Publicar</button><br></div><br><hr id='marco'><div id='Publicaciones"+p+"'></div>";
 if(p<2){
   document.getElementById('Publicaciones').innerHTML = text;
 }else {
